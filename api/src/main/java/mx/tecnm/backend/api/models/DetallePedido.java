@@ -6,4 +6,5 @@ public record DetallePedido(
     double precio,
     int productos_id,
     int pedidos_id
-) {}
+)
+ {}

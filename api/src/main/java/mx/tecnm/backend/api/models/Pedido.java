@@ -12,4 +12,5 @@ public record Pedido(
     String numero,
     double total,
     int usuarios_id
-) {}
+) 
+{}

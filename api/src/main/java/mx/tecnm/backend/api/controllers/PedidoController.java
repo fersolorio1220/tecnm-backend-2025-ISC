@@ -22,6 +22,5 @@ public class PedidoController {
         List<Pedido> resultado = repo.consultarPedidos(usuario_id);
         return ResponseEntity.ok(resultado);
     }
-
 }
 

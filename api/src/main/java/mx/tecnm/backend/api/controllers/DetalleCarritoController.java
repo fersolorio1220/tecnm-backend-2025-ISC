@@ -42,7 +42,6 @@ public class DetalleCarritoController {
         {
             resultado = repo.actualizarCantidadEnCarrito(busqueda.id(), busqueda.cantidad() + cantidad);
         }
-
         if (resultado == null) {
             return ResponseEntity.status(500).build();
         }
