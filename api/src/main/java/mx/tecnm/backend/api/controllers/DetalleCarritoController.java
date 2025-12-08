@@ -46,7 +46,6 @@ public class DetalleCarritoController {
         if (resultado == null) {
             return ResponseEntity.status(500).build();
         }
-
         return ResponseEntity.ok(resultado);
     }
 

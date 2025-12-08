@@ -1,5 +1,4 @@
 package mx.tecnm.backend.api.models;
-
 import java.sql.Timestamp;
 
 public record Pedido(

@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Repository;
-
 import mx.tecnm.backend.api.models.DetalleCarrito;
 import mx.tecnm.backend.api.models.Pedido;
 

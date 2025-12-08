@@ -6,4 +6,5 @@ public record DetalleCarrito(
     double precio,
     int producto_id,
     int usuario_id
-) {}
+) 
+{}
