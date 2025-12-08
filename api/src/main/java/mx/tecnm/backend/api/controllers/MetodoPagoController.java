@@ -70,5 +70,4 @@ public class MetodoPagoController {
             return ResponseEntity.notFound().build();
         }
     }
-
 }

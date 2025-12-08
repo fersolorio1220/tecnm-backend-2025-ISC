@@ -6,4 +6,5 @@ public record MetodoPago(
     int id,
     String nombre,
     BigDecimal comision
-) {}
+) 
+{}
